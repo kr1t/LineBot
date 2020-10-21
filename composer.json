@@ -1,0 +1,12 @@
+{
+    "name": "armkrit/php-line-bot",
+    "description": "Beta",
+    "authors": [
+        {
+            "name": "Arm",
+            "email": "mougnoi_k@silpakorn.edu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
