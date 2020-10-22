@@ -47,8 +47,15 @@ class LineBot
 
     public function setUser($uid)
     {
-        foreach (array($uid) as $key => $id) {
-            $this->uid[] = $id;
+        $uid = array($uid);
+        if (count($uid) < 1) {
+            return ['message' => 'uid is null'];
+        } else if (count($uid) == 1) {
+            $this->uid = $uid[0];
+        } else {
+            foreach (array($uid) as $key => $id) {
+                $this->uid[] = $id;
+            }
         }
         return $this;
     }
