@@ -14,5 +14,7 @@
         }
     },
     "license": "MIT",
-    "require": {}
+    "require": {
+        "illuminate/http": "^8.11"
+    }
 }
