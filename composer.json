@@ -1,17 +1,6 @@
 {
-    "name": "armkrit/php-line-bot",
+    "name": "armkrit/line-bot",
     "description": "Beta",
-    "authors": [
-        {
-            "name": "Arm",
-            "email": "mougnoi_k@silpakorn.edu"
-        }
-    ],
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "ArmKrit\\": "src/"
-        }
-    },
+    "type": "libraly",
     "require": {}
 }
