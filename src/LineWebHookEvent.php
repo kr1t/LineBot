@@ -1,8 +1,6 @@
 <?php
 namespace Krit;
 
-use Illuminate\Http\Request;
-
 class LineWebHookEvent
 {
     public $text;
@@ -19,7 +17,7 @@ class LineWebHookEvent
 
     public function setRequest()
     {
-        $request = new Request();
+        $request = request();
         $this->text = $request->all();
         return $this;
     }
