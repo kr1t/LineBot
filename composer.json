@@ -13,8 +13,5 @@
             "Krit\\": "src/"
         }
     },
-    "license": "MIT",
-    "require": {
-        "illuminate/http": "^8.11"
-    }
+    "license": "MIT"
 }
