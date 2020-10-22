@@ -1,6 +1,18 @@
 {
     "name": "armkrit/line-bot",
     "description": "Beta",
+    "authors": [
+        {
+            "name": "Krittanai Muangnoi",
+            "email": "krit.muangnoi@gmail.com"
+        }
+    ],
     "type": "libraly",
+    "autoload": {
+        "psr-4": {
+            "Krit\\": "src/"
+        }
+    },
+    "license": "MIT",
     "require": {}
 }
